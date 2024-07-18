@@ -1,0 +1,31 @@
+{
+  "name": "react-csv-download-example",
+  "version": "0.1.0",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-csv-download": "file:../",
+    "react-dom": "^18.3.1"
+  },
+  "scripts": {
+    "start": "vite"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 ie version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.4"
+  }
+}
