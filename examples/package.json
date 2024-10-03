@@ -1,9 +1,9 @@
 {
-  "name": "react-csv-download-example",
+  "name": "react-async-csv-downloader-example",
   "version": "0.1.0",
   "dependencies": {
     "react": "^18.3.1",
-    "react-csv-download": "file:../",
+    "react-async-csv-downloader": "file:../",
     "react-dom": "^18.3.1"
   },
   "scripts": {

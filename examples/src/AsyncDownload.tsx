@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDownloadLink, RawCSVExport } from 'react-csv-download';
+import { useDownloadLink, type RawCSVExport } from 'react-async-csv-downloader';
 
 const exampleCSV = `Name,Age,Email
 Alice,30,alice@example.com

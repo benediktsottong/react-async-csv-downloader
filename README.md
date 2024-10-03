@@ -1,4 +1,4 @@
-# react-csv-download
+# react-async-csv-downloader
 
 [![npm version](https://img.shields.io/npm/v/async-file-download.svg)](https://www.npmjs.com/package/async-file-download)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
