@@ -1,6 +1,4 @@
-# react-async-csv-downloader
-
-[![npm version](https://img.shields.io/npm/v/async-file-download.svg)](https://www.npmjs.com/package/async-file-download)
+[![npm version](https://img.shields.io/npm/v/react-async-csv-downloader.svg)](https://www.npmjs.com/package/react-async-csv-downloader)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A simple and user-friendly React Hook library that enables asynchronous downloading of files, particularly CSV files. This library is ideal for applications that dynamically generate and download data.
