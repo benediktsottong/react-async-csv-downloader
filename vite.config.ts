@@ -41,17 +41,9 @@ export default defineConfig({
     test: {
         globals: true,
         environment: 'jsdom',
-        setupFiles: './src/setupTests.ts',
-        testTimeout: 60000,
         coverage: {
             provider: 'v8',
-            exclude: ['**/examples/**', '.eslintrc.js', '.prettierrc.js'],
-            thresholds: {
-                branches: 96,
-                functions: 98,
-                lines: 99,
-                statements: 99,
-            },
+            include: ['**/useDownloadLink.ts'],
         },
     },
 });

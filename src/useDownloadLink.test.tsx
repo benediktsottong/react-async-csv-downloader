@@ -19,20 +19,20 @@ const TestComponent = ({ asyncResolver, onStart, onSuccess, onError }: any) => {
 };
 
 describe('useDownloadLink', () => {
-    const mockAsyncResolver = jest.fn();
-    const mockOnStart = jest.fn();
-    const mockOnSuccess = jest.fn();
-    const mockOnError = jest.fn();
+    const mockAsyncResolver = vi.fn();
+    const mockOnStart = vi.fn();
+    const mockOnSuccess = vi.fn();
+    const mockOnError = vi.fn();
 
     beforeEach(() => {
-        jest.clearAllMocks();
+        vi.clearAllMocks();
         // Set up a Blob constructor mock if needed
-        global.Blob = jest.fn().mockImplementation((content) => {
+        global.Blob = vi.fn().mockImplementation((content) => {
             return { content };
         });
         // Mock URL.createObjectURL and URL.revokeObjectURL
-        global.URL.createObjectURL = jest.fn().mockReturnValue('blob:url');
-        global.URL.revokeObjectURL = jest.fn();
+        global.URL.createObjectURL = vi.fn().mockReturnValue('blob:url');
+        global.URL.revokeObjectURL = vi.fn();
     });
 
     it('should call onStart and onSuccess when the link is clicked and resolves successfully', async () => {
