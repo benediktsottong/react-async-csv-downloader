@@ -1,6 +1,6 @@
 {
   "name": "react-async-csv-downloader",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A small hook to enable asynchronous downloading of csv files",
   "files": [
     "dist"

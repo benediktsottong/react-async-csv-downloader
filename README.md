@@ -19,7 +19,7 @@ A simple and user-friendly React Hook library that enables asynchronous download
 To install the library in your project, run the following command in your terminal:
 
 ```bash
-npm install async-file-download
+npm install react-async-csv-downloader
 ```
 
 ## Usage
