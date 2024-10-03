@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/benediktsottong/react-async-csv-downloader"
+    "url": "https://github.com/besotti/react-async-csv-downloader"
   },
   "keywords": [
     "CSV",

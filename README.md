@@ -32,7 +32,7 @@ To use the library, import the `useDownloadLink` hook and implement it in your c
 
 ```javascript
 import React from 'react';
-import { useDownloadLink } from 'async-file-download';
+import { useDownloadLink } from 'react-async-csv-downloader';
 import { RawCSVExport } from './types';
 
 const MyComponent = () => {
