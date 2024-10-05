@@ -1,6 +1,6 @@
 {
   "name": "react-async-csv-downloader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A small hook to enable asynchronous downloading of csv files",
   "files": [
     "dist"
@@ -13,7 +13,7 @@
     "test": "vitest run --coverage",
     "coverage": "vitest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "release": "npx release-it"
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
